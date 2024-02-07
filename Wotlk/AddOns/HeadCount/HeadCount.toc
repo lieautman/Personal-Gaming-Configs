@@ -1,0 +1,52 @@
+## Interface: 30300
+## Title: HeadCount |cff3355ddv.1.7.4|r
+## Name: HeadCount
+## Author: seppyk, kagaro, JerryBlade
+## Notes: Manages tracking of raid attendance, loot, and more.
+## Version: 1.7.4
+## DefaultState: enabled
+## OptionalDeps: Ace2, FuBarPlugin-2.0
+## X-Embeds: Ace2, FuBarPlugin-2.0
+## SavedVariables: HeadCountDB
+## SavedVariablesPerCharacter: HeadCountDBPC
+## X-Category: Raid
+## X-Date: January 12, 2009
+## X-Website: http://www.wowace.com/projects/head-count/
+## X-License: All Rights Reserved unless otherwise explicitly stated.
+## X-Localizations: enUS, esES, deDE, ruRU
+## X-Credits: Pneumatus for 3.2 patch
+## X-Curse-Project-Name: HeadCount
+## X-Curse-Project-ID: head-count
+## X-Curse-Repository-ID: wow/head-count/mainline
+## X-Curse-Packaged-Version: r114
+## X-Curse-Project-Name: HeadCount
+## X-Curse-Project-ID: head-count
+## X-Curse-Repository-ID: wow/head-count/mainline
+
+embeds.xml 
+
+locale\en_US.lua 
+locale\es_ES.lua 
+locale\de_DE.lua 
+locale\ru_RU.lua
+
+HeadCount.lua 
+HeadCountOptions.lua 
+HeadCountConstants.lua 
+HeadCountUtil.lua 
+HeadCountFrames.lua 
+
+Time.lua 
+TimePair.lua 
+Loot.lua 
+MessageHandler.lua
+Player.lua 
+PlayerInformation.lua 
+Raid.lua 
+Boss.lua 
+RaidListWrapper.lua 
+BossEvent.lua 
+Exporter.lua 
+RaidTracker.lua 
+
+HeadCountFrames.xml 

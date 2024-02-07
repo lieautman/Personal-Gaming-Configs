@@ -1,0 +1,15 @@
+MACRO 16777218 "Mount" Spell_Holy_CrusaderAura
+/cast Swift Purple Wind Rider
+/cast Acherus Deathcharger
+END
+MACRO 16777220 "Obli/Howl" INV_Misc_QuestionMark
+#showtooltip
+/cast [mod:shift] Howling Blast
+/cast Obliterate
+END
+MACRO 16777219 "Strikes" INV_Misc_QuestionMark
+#shottooltip
+/cast [mod:shift] Death Coil
+/cast Frost Strike
+/cast Rune Strike
+END

@@ -1,0 +1,186 @@
+HeadCount change log
+--------------------
+Version 1.5.9
+* Restored accidental removal of LDB support.
+
+Version 1.5.8
+* Added command-line option for manual boss kills /hc boss add [bossname]
+* Updated whipser waitlist command for new WHISPER API
+
+Version 1.5.6
+* Added boss kill group attendance configuration.
+* Added boss kill snapshot attendee removal.
+* Added optional note to to wait list add whisper command.
+* Added wait list contact note whisper command.
+* Added wait list information to XML export format.
+* Added wait list whisper notification configuration option.
+* Added refresh button for export screen.
+* Added returns and feeds for all export string lines.
+
+Version 1.5.1
+* Fixed issue where duplicate whispers were being sent when user has multiple chat frames.
+
+Version 1.5.0
+* Added integrated wait list functionality.
+* Added wait list user interface display.
+* Added raid announcement user interface display.
+* Added manual loot addition.
+* Added loot cost to member information display.
+* Added German localization.
+* Fixed The Four Horsemen boss kill tracking issue.
+* Fixed issue where user interface was not updating automatically on manual loot addition.
+
+Version 1.4.4
+* Added loot information to CSV export format.
+* Fixed loot name reference in CSV export format.
+
+Version 1.4.3
+* Added loot listing to member information section.
+* Added plain text export format string.
+* Converted all locale strings to have literal values.
+* Fixed stack overflow issue relating to automatic group selection.
+* Fixed zone name for Ruins of Ahn'Qiraj (Spanish).
+* Fixed zone name for Tempest Keep (Spanish).
+* Fixed false key issue in resource bundles.
+
+Version 1.4.0
+* Added Spanish localization.
+* Fixed Death Knight label in loot management popup frame.
+* Fixed localized class names mistakenly being used for internal comparison.
+* Removed duplicate Merithra of the Dream resource bundle key.
+
+Version 1.3.9
+* Added automatic group selection.
+
+Version 1.3.8
+* Added note field under loot management.
+
+Version 1.3.7
+* Added pruning feature to automatically delete old raids.
+* Refactored localized resource bundle tables into constants.
+* Fixed mismatched tags for phpBB export strings.
+
+Version 1.3.6
+* Added cost label to phpBB export strings.
+* Added difficulty label option for EQdkp export strings.
+* Fixed defect in XML export where equals sign was missing from version attribute.
+* Fixed missing battleground tracking configuration option.
+* Fixed missing attendance delay configuration option.
+* Fixed defect where 12-hour time formats were causing a nil error.
+
+Version 1.3.4
+* Added DKPBoard export format.
+
+Version 1.3.3
+* Added difficulty tracking for raids (normal vs. heroic).
+
+Version 1.3.2
+* Refactored locale-based metadata key-value pairs to actual constants.
+* Refactored attendance option menu tree to raid management.
+* Fixed EQdkp export class name issue for Death Knights.
+* Fixed issue where confirm dialog does not close when boss is removed.
+* Fixed old website reference documentation.
+* Fixed reporting channel configuration option not being listed in changelog.
+* Fixed Vault of Archevon raid not being listed in changelog. 
+* Fixed default level, which is not set to level 80.
+* Fixed defect where times were displaying as 00:00:00.
+
+Version 1.3.0
+* Added Death Knight class.
+* Added initial WotLK raids (Vault of Archevon, The Obsidian Sanctum, Naxxramas, The Eye of Eternity).
+* Added date-formatting configuration for different locales.
+* Added disenchanted, bank, and offspec shortcut buttons to loot management popup window.
+* Added Abyss Crystal, Emblem of Heroism, Emblem of Valor to the default exclusion list.
+* Added Strand of the Ancients to the battleground list.
+* Added Dalaran Arena and The Ring of Valor to the arena list.
+* Added channel configuration option for reporting messages.
+* Fixed nil zone reference under XML export.
+* Fixed ToString return value for BossEvent.
+* Fixed user interface scrolling error.
+
+Version 1.1.6
+* Added proper information messaging to addition or removal from the exclusion list.
+* Removed improper exclusion value setting for addition and removal commands.
+* Revised horizontal placement for the first sorting column in user interface sections.
+* Added broadcast channel selection for real-time messaging.
+* Refactored user interface tooltip leave functions.
+
+Version 1.1.5
+* Fixed a defect where a nil zone reference occurs in XML export.
+
+Version 1.1.4
+* Added XML export (credit: cactusjackatu).
+
+Version 1.1.3 (77806 | seppyk | 2008-07-04)
+* Added configurable loot management popup window.
+* Fixed defect relating to a nil reference when a player returns to a no list status.
+
+Version 1.1.2 (77567 | seppyk | 2008-06-28)
+* Added CSV export (credit: Piedtyper).
+* Revised remove loot button tooltip.
+
+Version 1.1.1 (77354 | seppyk | 2008-06-24)
+* Added configurable attendance delay so users can get increased performance at the cost of attendance accuracy.
+* Initial run at cleaning up namespace issues.
+
+Version 1.1.0 (77247 | seppyk | 2008-06-22)
+* Added loot management feature to change looter.
+* Added loot management feature to change loot source.
+
+Version 1.0.9 (76636 | seppyk | 2008-06-13)
+* Fixed defect where boss kill remove button tooltip was mislabeled.
+* Fixed defect where guild chat message was defaulting to Common causing problems for Horde players.
+
+Version 1.0.8 (76515 | seppyk | 2008-06-11)
+* Added menu item to help point users to loot exclusion management.
+* Revised phpBB export to list raid times on separate lines from player.
+* Added phpBB with ItemStats export.
+* Added boss kill broadcasting to guild chat feature.
+* Added loot broadcasting to guild chat feature.
+
+Version 1.0.7 (75636 | seppyk | 2008-05-31)
+* Revised exclusion list with defaults (Badge of Justice, Kael weapons, Nexus Crystal, Void Crystal).  Users will have to readd/remove to rebuild their exclusion list.
+* Fixed defect where aliased loot source was not being tracked correctly (Kalecgos / Sathrovarr the Corruptor, etc.).
+
+Version 1.0.6 (74542 | seppyk | 2008-05-20)
+* Added loot source tracking for EQdkp export.
+* Removed size tag references from phpBB export.
+* Fixed defect relating to loot version mismatch.
+
+Version 1.0.5 (74461 | seppyk | 2008-05-19)
+* Added loot source tracking.
+* Added player times to phpBB export string.
+* Fixed defect for phpBB export zone nil reference.
+
+Version 1.0.4 (74167 | seppyk | 2008-05-17)
+* Initial code cleanup/refactoring.
+* Fixed defect where UI frame was sometimes not refreshing after a loot query.
+* Added toggle for battleground tracking.
+* Added phpBB export (Credit: impish | nogudnik).
+
+Version 1.0.3 (r73143 | seppyk | 2008-05-08)
+* Added loot management (ability to set DKP cost per loot).
+* Revised boss kill tracking for better accuracy.
+* Made item icons slightly smaller in the raid loot UI frame.
+* Loot icons or loot links can now be shift-clicked to link items in text chat.
+* Added item level text to loot tooltip.
+* Fixed a defect where an extra parameter was being passed to the raid tracker loot update.
+* Fixed loot frame UI button hit coordinates.
+
+Version 1.0.2 (r72145 | seppyk | 2008-04-29)
+* Added boss kill tracking.
+* Added enhancement to automatically highlight the entire export edit box so users would not have to manually select the entire entry.
+* Updated license to Creative Commons license.
+* Added Dewdrop-2.0 library as dependency.
+* Revised to close on escape key.
+* Fixed defect where the most recent raid could not be exported, even if it was not active.
+* Fixed defect where unavailable items were causing errors on icon mouseover and raid exporting.
+* Fixed various UI position defects.
+* Updated TOC for OptionalDeps and X-Embeds.
+
+Version 1.0.1 (r70404 | seppyk | 2008-04-19)
+* Initial version.
+* Added time-based raid attendance tracking and management.
+* Added raid loot tracking and management.
+* Added loot exclusion management.
+* Added raid export for CTRT plugin for EQdkp.

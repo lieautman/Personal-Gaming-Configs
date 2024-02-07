@@ -1,0 +1,27 @@
+MACRO 16777221 "Armours" INV_Misc_QuestionMark
+#showtooltip
+/cast [mod:ctrl] Mage Armor
+/cast [mod:shift] Frost Armor
+/cast Molten Armor
+END
+MACRO 16777217 "ballz" INV_Misc_QuestionMark
+#showtooltip
+/cast [mod:shift] Frostbolt
+/cast Fireball
+END
+MACRO 16777218 "Countrespell" INV_Misc_QuestionMark
+#showtooltip
+/stopcasting
+/cast Counterspell
+END
+MACRO 16777220 "Int" INV_Misc_QuestionMark
+#showtooltip
+/cast [mod:shift] Arcane Brilliance
+/cast Arcane Intellect
+END
+MACRO 16777219 "Slowfall" INV_Misc_QuestionMark
+#showtooltip
+/dismount
+/stopcasting
+/cast Slow Fall
+END

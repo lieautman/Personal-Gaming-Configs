@@ -1,0 +1,95 @@
+------------------------------------------------------------------------
+r114 | jerryblade | 2010-02-04 16:33:37 +0000 (Thu, 04 Feb 2010) | 3 lines
+Changed paths:
+   M /trunk/HeadCount.toc
+   M /trunk/HeadCountConstants.lua
+   M /trunk/locale/de_DE.lua
+   M /trunk/locale/en_US.lua
+   M /trunk/locale/es_ES.lua
+   M /trunk/locale/ru_RU.lua
+
+HeadCount: 
+- Added text trigger for Professor Putricide
+- Added text trigger for Valithria Dreamwalker
+------------------------------------------------------------------------
+r113 | jerryblade | 2010-01-27 17:01:53 +0000 (Wed, 27 Jan 2010) | 4 lines
+Changed paths:
+   M /trunk/HeadCountConstants.lua
+   M /trunk/locale/de_DE.lua
+   M /trunk/locale/en_US.lua
+   M /trunk/locale/es_ES.lua
+   M /trunk/locale/ru_RU.lua
+
+HeadCount: 
+- Fixed Blood Princes Issue
+- Added Yell Trigger to Alias Mapping for Gunship Battle
+- Cleaned out Non-Working Boss Kill Detections
+------------------------------------------------------------------------
+r112 | jerryblade | 2010-01-27 14:35:05 +0000 (Wed, 27 Jan 2010) | 2 lines
+Changed paths:
+   M /trunk/HeadCountConstants.lua
+   M /trunk/locale/de_DE.lua
+   M /trunk/locale/en_US.lua
+   M /trunk/locale/es_ES.lua
+   M /trunk/locale/ru_RU.lua
+
+HeadCount: 
+- Added Aliases for Blood Princes Encounter
+------------------------------------------------------------------------
+r111 | jerryblade | 2010-01-14 20:53:36 +0000 (Thu, 14 Jan 2010) | 2 lines
+Changed paths:
+   M /trunk/HeadCountConstants.lua
+   M /trunk/locale/de_DE.lua
+   M /trunk/locale/en_US.lua
+   M /trunk/locale/es_ES.lua
+   M /trunk/locale/ru_RU.lua
+
+HeadCount: 
+- Commented out now unnecessary Lady Deathwhisper trigger text
+------------------------------------------------------------------------
+r110 | jerryblade | 2010-01-13 17:23:11 +0000 (Wed, 13 Jan 2010) | 2 lines
+Changed paths:
+   M /trunk/HeadCountConstants.lua
+   M /trunk/locale/de_DE.lua
+   M /trunk/locale/en_US.lua
+   M /trunk/locale/es_ES.lua
+   M /trunk/locale/ru_RU.lua
+
+HeadCount: 
+- Changed "Lake Wintergrasp" to "Wintergrasp"
+------------------------------------------------------------------------
+r109 | jerryblade | 2010-01-13 16:28:21 +0000 (Wed, 13 Jan 2010) | 4 lines
+Changed paths:
+   M /trunk/HeadCount.toc
+   M /trunk/HeadCountConstants.lua
+   M /trunk/RaidTracker.lua
+   M /trunk/locale/de_DE.lua
+   M /trunk/locale/en_US.lua
+   M /trunk/locale/es_ES.lua
+   M /trunk/locale/ru_RU.lua
+
+HeadCount: 
+- Added Lake Wintergrasp to the Battleground list
+- Created Boss WHITELIST to handle Lady Deathwhisper and other future non-worldbosses
+- Added aliases to Gunship Battle Ship Captains to allow their speech triggers to count as a Gunship Battle events
+------------------------------------------------------------------------
+r108 | jerryblade | 2010-01-12 20:38:43 +0000 (Tue, 12 Jan 2010) | 3 lines
+Changed paths:
+   M /trunk/HeadCount.toc
+   M /trunk/locale/ru_RU.lua
+
+HeadCount: 
+- Updated with latest Dewdrop Lib to fix right-click minimap button menu (thanks Yoshimo!)
+- Fixed typo in locale/ru_RU.lua on Freya trigger
+------------------------------------------------------------------------
+r107 | jerryblade | 2009-12-17 17:26:21 +0000 (Thu, 17 Dec 2009) | 2 lines
+Changed paths:
+   M /trunk/HeadCount.toc
+   M /trunk/locale/de_DE.lua
+   M /trunk/locale/en_US.lua
+   M /trunk/locale/es_ES.lua
+   M /trunk/locale/ru_RU.lua
+
+HeadCount: 
+- Added the Gunship Battle Trigger Texts for both Alliance and Horde (untested)
+------------------------------------------------------------------------

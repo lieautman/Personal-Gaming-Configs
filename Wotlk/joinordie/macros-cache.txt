@@ -1,0 +1,88 @@
+MACRO 16777237 "AAA" INV_Misc_QuestionMark
+#showtooltip
+/cast Divine Storm
+/use 10
+/startattack
+END
+MACRO 16777229 "AS" INV_Misc_QuestionMark
+#showtooltip
+/cast Avenger's Shield
+/startattack
+END
+MACRO 16777235 "AW" INV_Misc_QuestionMark
+#showtooltip
+/cast Avenging Wrath
+/cast Potion of Speed
+END
+MACRO 16777219 "CC" INV_Misc_QuestionMark
+#showtooltip
+/cast Consecration
+/startattack
+END
+MACRO 16777218 "CS" INV_Misc_QuestionMark
+#showtooltip
+/cast Crusader Strike
+/startattack
+END
+MACRO 16777217 "DDD" INV_Misc_QuestionMark
+#showtooltip
+/cast Divine Storm
+/cast Global Thermal Sapper Charge
+/use 10
+/startattack
+END
+MACRO 16777225 "EXO" INV_Misc_QuestionMark
+#showtooltip
+/cast Exorcism
+/startattack
+END
+MACRO 16777222 "HOF" INV_Misc_QuestionMark
+#showtooltip
+/cast [@mouseover, nodead, help][] Hand of Freedom
+END
+MACRO 16777220 "HOP" INV_Misc_QuestionMark
+#showtooltip
+/cast [@mouseover, nodead, help][] Hand of Protection
+END
+MACRO 16777234 "hosdef" INV_Misc_QuestionMark
+#showtooltip
+/cast [@player]Hand of Salvation
+/cancelaura Hand of Salvation
+END
+MACRO 16777224 "HOSF" INV_Misc_QuestionMark
+#showtooltip
+/cast [@mouseover, nodead, help][] Hand of Sacrifice
+END
+MACRO 16777223 "HOSV" INV_Misc_QuestionMark
+#showtooltip
+/cast [@mouseover, nodead, help][] Hand of Salvation
+END
+MACRO 16777231 "HOTR" INV_Misc_QuestionMark
+#showtooltip
+/cast Hammer of the Righteous
+/startattack
+END
+MACRO 16777227 "HOW" INV_Misc_QuestionMark
+#showtooltip
+/cancelaura Chaos Bane
+/cast Hammer of Wrath
+/startattack
+END
+MACRO 16777226 "HW" INV_Misc_QuestionMark
+#showtooltip
+/cast Holy Wrath
+/startattack
+END
+MACRO 16777228 "LOH" INV_Misc_QuestionMark
+#showtooltip
+/cast  [@mouseover, nodead, help][] Lay on Hands
+END
+MACRO 16777230 "SOR" INV_Misc_QuestionMark
+#showtooltip
+/cast Shield of Righteousness
+/startattack
+END
+MACRO 16777233 "SS" INV_Misc_QuestionMark
+#showtooltip
+/cast [@mouseover, nodead, help][] Sacred Shield; Sacred Shield
+END
