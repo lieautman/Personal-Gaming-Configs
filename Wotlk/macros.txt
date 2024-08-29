@@ -1,0 +1,88 @@
+#showtooltip
+/cast [mod:ctrlshift] Frost Resistance Aura
+/cast [mod:ctrlalt] Shadow Resistance Aura
+/cast [mod:shift] Retribution Aura
+/cast  [mod:alt] Fire Resistance Aura
+/cast [mod:ctrl] Concentration Aura
+/cast Devotion Aura
+
+#showtooltip
+/cast [mod:shift] Blessing of Kings
+/cast [mod:alt] Blessing of Might
+/cast Blessing of Wisdom
+
+#showtooltip
+/cast [mod:shift] Blessing of Kings
+/cast [mod:ctrl] Blessing of Wisdom
+/cast [mod:alt] Blessing of Might
+/cast Blessing of Sanctuary
+
+#showtooltip
+/castsequence reset=10 Divine Shield, Hearthstone
+/y "Sayonara!"
+
+#showtooltip 
+/cast [mod:shift] Hammer of Justice
+/cast Arcane Torrent
+
+#showtooltip 
+/cast [mod:ctrl] Arcane Torrent
+/cast [mod:shift] Hammer of Justice
+/cast Avenger's Shield
+
+#showtooltip
+/cast [help] Righteous Defense
+/cast [harm] Hand of Reckoning
+/cast [target=targettarget] Righteous Defense
+
+#showtooltip
+/cast [mod:shift] Divine Favor
+/cast [mod:ctrl] Aura Mastery
+/cast Divine Illumination
+
+#showtooltip
+/cast [mod:shift] Greater Blessing of Kings
+/cast [mod:ctrl] Greater Blessing of Wisdom
+/cast [mod:alt] Greater Blessing of Might
+/cast Greater Blessing of Sanctuary
+
+#showtooltip
+/cast [mod:shift] Greater Blessing of Kings
+/cast [mod:alt] Greater Blessing of Might
+/cast  Greater Blessing of Wisdom
+
+#showtooltip
+/cast [mod:shift] Flash of Light
+/cast Holy Light
+
+#showtooltip
+/cast [mod:shift] Judgement of Light
+/cast [mod:ctrl] Judgement of Justice
+/cast Judgement of Wisdom
+
+#showtooltip
+/cast [mod:shift] Holy Wrath
+/cast [mod:ctrl] Turn Evil
+/cast Exorcism
+
+#showtooltip
+/cast Crusader Aura
+/cast Swift Red Wind Rider
+
+#showtooltip
+/cast [mod:shift] Divine Shield
+/cast [mod:ctrl] Divine Protection
+/cast [mod:alt] Hand of Protection
+/cast Lay on Hands
+
+#showtooltip
+/cast [mod:ctrlshift] Seal of Light
+/cast [mod:shift] Seal of Corruption
+/cast [mod:ctrl] Seal of Justice
+/cast [mod:alt] Seal of Righteousness
+/cast Seal of Wisdom
+
+#showtooltip
+/cast [mod:shift] Holy Shield
+/cast Sacred Shield
+
